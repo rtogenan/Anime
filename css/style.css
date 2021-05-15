@@ -1,0 +1,14 @@
+body{
+  background-color: purple;
+  color: white;
+}
+h1{
+  font-size: 56px;
+}
+h2{
+  font-size: 30px;
+}
+p{
+  background-color: pink;
+  font-size: 25px;
+}
