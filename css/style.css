@@ -1,14 +1,49 @@
-body{
-  background-color: purple;
-  color: white;
+header{
+  font-size: 36px;
 }
-h1{
-  font-size: 56px;
+
+li {
+  display: inline-block;
+  /*float: left;*/
+  margin: 10px;
 }
-h2{
-  font-size: 30px;
-}
-p{
-  background-color: pink;
+
+ol, ul{
+  color: black;
   font-size: 25px;
+  list-style-type: none;/* Убирает маркер */
+  margin: 20px 10px;
+}
+
+a{
+  background-color: #4A3475;
+  color: white;
+  text-decoration: none;/* Убирает подчеркивание */
+  padding: 10px 15px;/*отступ внутри*/
+  border: 1px solid #4A3475;/*обводим кнопку*/
+  border-radius: 10px;/*скругление кнопки*/
+}
+a:hover{
+  background-color: #CCB6F7;
+  font-size: 25px;
+  text-decoration: none;/* Убирает подчеркивание */
+}
+body{
+  background-image: url(https://s1.1zoom.ru/b5050/592/Tulips_Fields_Pink_color_545751_1920x1080.jpg);
+}
+
+.post{
+  background-color: white;
+  color: black;
+  border: 2px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.intro{
+
+  color: #CCB7F7;
+  border: 2px;
+  border-radius: 5px;
+  padding: 10px 20px;
 }
